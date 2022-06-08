@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.theme
+{
+    width: 33.33vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.theme .background
+{
+    height: 100vh;
+}
+
+.dev
+{
+    position: relative;
+    background: #5577A3;
+}
+
+.dev .background
+{
+    opacity: 30%;
+}
+
+.ui-ux
+{
+    background: #C54A1C;
+}
+
+.ui-ux .background
+{
+    width: 33.33vw;
+}
+
+.editor
+{
+    background: green;
+}
