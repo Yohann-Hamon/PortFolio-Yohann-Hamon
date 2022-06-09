@@ -12,6 +12,7 @@ body
 
 .theme
 {
+    position: relative;
     width: 33.33vw;
     height: 100vh;
     overflow: hidden;
@@ -24,13 +25,20 @@ body
 
 .dev
 {
-    position: relative;
     background: #5577A3;
 }
 
 .dev .background
 {
     opacity: 30%;
+}
+
+.dev .element
+{
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    width: 33.33vw;
 }
 
 .ui-ux
@@ -43,7 +51,23 @@ body
     width: 33.33vw;
 }
 
+.ui-ux .element
+{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 33.33vw;
+}
+
 .editor
 {
     background: green;
+}
+
+.editor .element
+{
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    width: 33.33vw;
 }
