@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     background: #000000;
+    font-size: 0;
 }
 
 /* ----- Container/first window ----- */
@@ -139,4 +140,42 @@ body
     font-family: 'Comfortaa';
     font-size: 32px;
     color: #ffffff;
+}
+
+/* ----- next window ----- */
+
+.next-window
+{
+    position: relative;
+    height: 100vh;
+}
+
+/* ---- dev window ---- */
+
+.next-window .dev-window
+{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+/* ---- ui-ux window ---- */
+
+.next-window .ui-ux-window
+{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+/* ---- photo editor window ---- */
+
+.next-window .editor-window
+{
+    width: 100%;
+    height: 100%;
+    background: #eeeeee;
+    overflow: hidden;
 }
