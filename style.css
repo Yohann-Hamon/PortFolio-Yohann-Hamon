@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    background: #000000;
 }
 
 .container
@@ -23,9 +24,16 @@ body
     height: 100vh;
 }
 
+.gradient
+{
+    opacity: 0;
+    transition: 0.5s;
+}
+
 .dev
 {
     background: #5577A3;
+    transition: 1s;
 }
 
 .dev .background
@@ -41,9 +49,22 @@ body
     width: 33.33vw;
 }
 
+.dev:hover .gradient
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(63.61% 63.61% at 50% 36.39%, rgba(0, 0, 0, 0) 51.35%, rgba(0, 0, 0, 0.69) 100%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
 .ui-ux
 {
     background: #C54A1C;
+    transition: 1s;
 }
 
 .ui-ux .background
@@ -59,9 +80,21 @@ body
     width: 33.33vw;
 }
 
+.ui-ux:hover .gradient
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(63.61% 63.61% at 50% 36.39%, rgba(0, 0, 0, 0) 51.35%, rgba(0, 0, 0, 0.69) 100%);
+    opacity: 1;
+}
+
 .editor
 {
     background: green;
+    transition: 1s;
 }
 
 .editor .element
@@ -70,4 +103,16 @@ body
     top: 20vh;
     left: 0;
     width: 33.33vw;
+}
+
+.editor:hover .gradient
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(63.61% 63.61% at 50% 36.39%, rgba(0, 0, 0, 0) 51.35%, rgba(0, 0, 0, 0.69) 100%);
+    opacity: 1;
+    transition: 0.5s;
 }

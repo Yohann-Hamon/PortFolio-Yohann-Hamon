@@ -1,0 +1,1 @@
+const dev = document.querySelector('.dev')
