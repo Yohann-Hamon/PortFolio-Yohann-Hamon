@@ -5,6 +5,8 @@ body
     background: #000000;
 }
 
+/* ----- Container/first window ----- */
+
 .container
 {
     display: flex;
@@ -14,6 +16,8 @@ body
 .theme
 {
     position: relative;
+    display: flex;
+    justify-content: center;
     width: 33.33vw;
     height: 100vh;
     overflow: hidden;
@@ -29,6 +33,10 @@ body
     opacity: 0;
     transition: 0.5s;
 }
+
+/* ---- differents theme in the portfolio ---- */
+
+/* --- dev --- */
 
 .dev
 {
@@ -61,6 +69,8 @@ body
     transition: 0.5s;
 }
 
+/* --- ui-ux --- */
+
 .ui-ux
 {
     background: #C54A1C;
@@ -91,6 +101,8 @@ body
     opacity: 1;
 }
 
+/* --- photo editor --- */
+
 .editor
 {
     background: green;
@@ -115,4 +127,16 @@ body
     background: radial-gradient(63.61% 63.61% at 50% 36.39%, rgba(0, 0, 0, 0) 51.35%, rgba(0, 0, 0, 0.69) 100%);
     opacity: 1;
     transition: 0.5s;
+}
+
+/* - texte - */
+
+.theme-name
+{
+    position: absolute;
+    bottom: 0;
+    left: 50% - 5%;
+    font-family: 'Comfortaa';
+    font-size: 32px;
+    color: #ffffff;
 }
