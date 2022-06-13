@@ -208,6 +208,9 @@ p
 {
     position: relative;
     margin-top: 80px;
+    padding: 5px 5px 5px 5px;
+    border-color: #888888;
+    border-style: double;
 }
 
 .dev-window .first-workpage .title
@@ -233,7 +236,7 @@ p
     width: 300px;
 }
 
-.dev-window .second-workpage .release .image
+.dev-window .first-workpage .release .image
 {
     position: absolute;
     left: 0;
@@ -247,16 +250,63 @@ p
 {
     position: relative;
     margin-top: 80px;
+    padding: 5px 5px 5px 5px;
+    height: 225px;
+    background: #1a1a1a;
+    border-color: #888888;
+    border-style: double;
 }
 
 .dev-window .second-workpage .title
 {
     position: absolute;
     top: 0;
-    left: 450px;
+    right: 450px;
+    width: 300px;
 }
 
 .dev-window .second-workpage .description
+{
+    position: absolute;
+    top: 56px;
+    right: 450px;
+    width: 300px;
+}
+
+.dev-window .second-workpage .release
+{
+    position: absolute;
+    right: 450px;
+    bottom: 0;
+    width: 300px;
+}
+
+.dev-window .second-workpage .second-work
+{
+    position: absolute;
+    right: 5px;
+    width: 400px;
+}
+
+/* --- partiel work --- */
+
+.dev-window .partiel-workpage 
+{
+    position: relative;
+    margin-top: 80px;
+    padding: 5px 5px 5px 5px;
+    border-color: #888888;
+    border-style: double;
+}
+
+.dev-window .partiel-workpage .title
+{
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+
+.dev-window .partiel-workpage .description
 {
     position: absolute;
     top: 56px;
@@ -264,7 +314,7 @@ p
     width: 300px;
 }
 
-.dev-window .second-workpage .release
+.dev-window .partiel-workpage .release
 {
     position: absolute;
     left: 450px;
@@ -272,12 +322,56 @@ p
     width: 300px;
 }
 
-.dev-window .second-workpage .release .second-work
+.dev-window .partiel-workpage .release .partiel-work
 {
     position: absolute;
     right: 0;
     bottom: 0;
     width: 300px;
+}
+
+/* --- first-intensive work --- */
+
+.dev-window .first-intensive-workpage 
+{
+    position: relative;
+    margin-top: 80px;
+    padding: 5px 5px 5px 5px;
+    height: 225px;
+    background: #1a1a1a;
+    border-color: #888888;
+    border-style: double;
+}
+
+.dev-window .first-intensive-workpage .title
+{
+    position: absolute;
+    top: 0;
+    right: 450px;
+    width: 300px;
+}
+
+.dev-window .first-intensive-workpage .description
+{
+    position: absolute;
+    top: 56px;
+    right: 450px;
+    width: 300px;
+}
+
+.dev-window .first-intensive-workpage .release
+{
+    position: absolute;
+    right: 450px;
+    bottom: 0;
+    width: 300px;
+}
+
+.dev-window .first-intensive-workpage .first-intensive-work
+{
+    position: absolute;
+    right: 5px;
+    width: 400px;
 }
 
 /* ---- ui-ux window ---- */
