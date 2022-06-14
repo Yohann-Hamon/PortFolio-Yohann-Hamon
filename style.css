@@ -141,7 +141,6 @@ p
 {
     position: absolute;
     bottom: 0;
-    left: 50% - 5%;
     margin-bottom: 56px;
     font-family: 'Comfortaa';
     font-size: 32px;
@@ -154,6 +153,16 @@ p
 {
     position: relative;
     height: 100vh;
+}
+
+.release
+{
+    opacity: 0.3;
+}
+
+.description
+{
+    opacity: 0.7;
 }
 
 /* ---- dev window ---- */
@@ -208,9 +217,8 @@ p
 {
     position: relative;
     margin-top: 80px;
-    padding: 5px 5px 5px 5px;
-    border-color: #888888;
-    border-style: double;
+    padding: 8px 8px 8px 8px;
+    border: #888888 solid 1px;
 }
 
 .dev-window .first-workpage .title
@@ -250,11 +258,10 @@ p
 {
     position: relative;
     margin-top: 80px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px 8px 8px 8px;
     height: 225px;
     background: #1a1a1a;
-    border-color: #888888;
-    border-style: double;
+    border: #888888 solid 1px;
 }
 
 .dev-window .second-workpage .title
@@ -294,9 +301,8 @@ p
 {
     position: relative;
     margin-top: 80px;
-    padding: 5px 5px 5px 5px;
-    border-color: #888888;
-    border-style: double;
+    padding: 8px 8px 8px 8px;
+    border: #888888 solid 1px;
 }
 
 .dev-window .partiel-workpage .title
@@ -336,11 +342,10 @@ p
 {
     position: relative;
     margin-top: 80px;
-    padding: 5px 5px 5px 5px;
+    padding: 8px 8px 8px 8px;
     height: 225px;
     background: #1a1a1a;
-    border-color: #888888;
-    border-style: double;
+    border: #888888 solid 1px;
 }
 
 .dev-window .first-intensive-workpage .title
@@ -379,10 +384,54 @@ p
 .next-window .ui-ux-window
 {
     display: none;
-    width: 100%;
-    height: 100%;
-    background: #eeeeee;
+    padding: 56px 80px;
+    background: #330000;
+    color: #ffffff;
     overflow: hidden;
+}
+
+.ui-ux-window p
+{
+    margin-bottom: 24px;
+    font-family: 'Oswald';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.ui-ux-window .title-window
+{
+    margin-bottom: 0;
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 600;
+}
+.ui-ux-window .sub-title
+{
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ui-ux-window .about
+{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.ui-ux-window .image
+{
+    left: calc(50% - 25vw);
+    width: 50vw;
+}
+
+.ui-ux-window .netflix
+{
+    position: relative;
+    margin: 56px;
+    text-align: center;
 }
 
 /* ---- photo editor window ---- */
@@ -390,8 +439,52 @@ p
 .next-window .editor-window
 {
     display: none;
-    width: 100%;
-    height: 100%;
-    background: #eeeeee;
+    padding: 56px 80px;
+    background: #000011;
+    color: #ffffff;
     overflow: hidden;
+}
+
+.editor-window p
+{
+    margin-bottom: 24px;
+    font-family: 'Oswald';
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.editor-window .title-window
+{
+    margin-bottom: 0;
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 600;
+}
+.editor-window .sub-title
+{
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.editor-window .about
+{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.editor-window img
+{
+    left: calc(50% - 25vw);
+    width: 50vw;
+}
+
+.editor-window .deiti
+{
+    position: relative;
+    margin: 56px;
+    text-align: center;
 }
