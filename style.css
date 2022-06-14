@@ -476,7 +476,7 @@ p
     font-weight: 300;
 }
 
-.editor-window img
+.editor-window .image
 {
     left: calc(50% - 25vw);
     width: 50vw;
